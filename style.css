@@ -49,7 +49,15 @@ html {
       line-height: 40px;
     
       }
-  
+      
+  h3 {  
+        color: #031D5B;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: left;
+        margin-left: 20px;
+      }
   a {
       font-weight: bold;
       font-size: 16px;
@@ -61,7 +69,19 @@ html {
       line-height: 32px;
       position: relative;
       top: -15px;
+      z-index: 0;
   }
+
+  .cards p {
+    color: #5B6C94;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+
   
   /* ---- layout ---- */
   
@@ -164,9 +184,30 @@ html {
     padding: 15px;
     border-radius: 15px; 
     box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
-    margin-bottom: 140px;
+    margin-bottom: 120px;
     }
 
-    
+  .cards {
+    height: 1571px;	
+    width: 335px;
+    background-color: white;
+    box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
+    margin: 20px;  
+    border-radius: 20px;  
+    position: relative;
+    top: -64px;
+    z-index: 10;
+
   }
 
+  .cards img {
+    width:60%;
+    margin: 38px 0 38px 0;
+  }
+
+.cards div {
+    height: 5px;
+    width: 60px;
+    background-color: #F8765E;
+    margin-left: 20px;
+}
