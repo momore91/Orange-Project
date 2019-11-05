@@ -72,7 +72,7 @@ html {
       z-index: 0;
   }
 
-  .cards p {
+  .parrafo {
     color: #5B6C94;
     font-size: 16px;
     font-weight: 500;
@@ -81,6 +81,29 @@ html {
     margin-right: 20px;
     
   }
+
+  .section3 p {
+    margin-left: 30px;
+  }
+
+  .section3 h2 {
+        color: #F8765E;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 75px;
+        text-align: center;
+    }
+
+    .section3 h3 {
+        color: #031D5B;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 45px;
+        text-align: center;
+        margin-left:0;
+        
+    }
 
   
   /* ---- layout ---- */
@@ -210,4 +233,37 @@ html {
     width: 60px;
     background-color: #F8765E;
     margin-left: 20px;
+}
+
+.section3 {
+    position: relative;
+}
+
+.section3 div {
+    height: 296.07px;
+    width: 296px;
+    background-color: #F8765E;
+    margin-left: 40px;
+    border-radius: 200px;
+}
+
+.section3 img {
+    width: 50%;
+    position: absolute;
+    top: -80px;
+    left: 90px;
+}
+
+.section3 button {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 60px;
+    width: 178px;
+    border-radius: 20px;
+    background-color: #9BDBE7;
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
+    margin-bottom: 100px;
+    border-style: none;
+
 }
