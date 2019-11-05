@@ -11,19 +11,35 @@ html {
     margin: 0;
     padding: 0;
   }
-  
+
+  li {
+    list-style-type: none;
+}
+    a {
+    color: white;
+    text-decoration: none;
+    }
   
   /* ---- typography ---- */
   
   body {
     color: #111;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 147%;
+    text-align: center;
   }
 
+  h1 {
+      color: white;
+      font-style: black;
+      font-size: 26px;
+  }
   
-  
+  a {
+      font-weight: bold;
+      font-size: 16px;
+  }
   
   /* ---- layout ---- */
   
@@ -52,6 +68,10 @@ html {
     padding-top: 20px;
   }
   
+  h1 {
+      margin: 0 auto;
+      line-height: 58px;
+  }
 
   
   
@@ -71,4 +91,6 @@ html {
   
   /* ---- section ---- */
   
-  
+  header {
+      background-color: #f8765e;
+  }
