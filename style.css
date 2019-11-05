@@ -112,6 +112,33 @@ html {
         line-height: 40px;
     }
 
+    footer p {
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 32px;
+        padding-top: 40px;
+    }
+
+    .sectionSuscribe h2 {
+        color: #F8765E;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 40px;
+        padding: 0;
+    }
+
+    .sectionSuscribe h3 {
+        color: #CDCDCD;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 45px;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+
+
   
   /* ---- layout ---- */
   
@@ -185,6 +212,10 @@ html {
       background-color: #f8765e;
   }
 
+  footer {
+    background-color: #f8765e;
+  }
+
   section img {
       width: 80%;
       margin-top: 40px;
@@ -222,6 +253,7 @@ html {
     border-radius: 15px; 
     box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
     margin-bottom: 120px;
+    border-style: none;
     }
 
   .cards {
