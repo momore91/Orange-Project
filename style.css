@@ -109,7 +109,7 @@ html {
         color: #F8765E;
         font-size: 16px;
         font-weight: bold;
-        line-height: 40px;
+        line-height: 30px;
     }
 
     footer p {
@@ -184,7 +184,8 @@ html {
 
   .textCostumers {
       position: relative;
-      top: -140px;
+      top: -150px;
+      margin-left: 30px;
       margin-right: 210px;
       
 
@@ -316,9 +317,11 @@ html {
 
 .sectionquotes {
     text-align: left;
+    
 }
 
 .img-big-quote {
     text-align: left;
-    width: 35%;
+    width: 40%;
+    margin-left: 20px;
 }
