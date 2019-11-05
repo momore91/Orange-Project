@@ -11,10 +11,16 @@ html {
     margin: 0;
     padding: 0;
   }
-
+  
+  ul {
+      margin: 0;
+      padding: 0;
+  }
+  
   li {
     list-style-type: none;
-}
+    }
+    
     a {
     color: white;
     text-decoration: none;
@@ -36,16 +42,32 @@ html {
       font-size: 26px;
   }
   
+  h2 {
+      color: white;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 40px;
+    
+      }
+  
   a {
       font-weight: bold;
       font-size: 16px;
+  }
+  .section1 p {
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 32px;
+      position: relative;
+      top: -15px;
   }
   
   /* ---- layout ---- */
   
   #site-header {
     padding: 30px 0;
-    color: white;
+    color: #f8765e;
     background: #111;
   }
   
@@ -65,13 +87,24 @@ html {
   
   .section {
     margin-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 40px;
   }
   
   h1 {
       margin: 0 auto;
       line-height: 58px;
   }
+
+  .container {
+      margin: 30px;
+  }
+
+  form {
+      display:inline-block;
+      position: relative;
+      top: -20px;
+  }
+
 
   
   
@@ -94,3 +127,46 @@ html {
   header {
       background-color: #f8765e;
   }
+
+  section img {
+      width: 80%;
+      margin-top: 40px;
+      
+  }
+
+  .section1 {
+      background-color: #f8765e;
+  }
+
+  form input {
+      width: 335px;
+      height: 60px;
+      display:inline-block;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      font-size: 17px;
+      color: #cdcdcd;
+      padding: 21px 25px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border-radius: 20px; 
+      padding: 30px auto;
+      box-shadow: inset 0 1px 5px 0 rgba(0,0,0,0.15);
+      border-style: none;
+    
+  }
+
+  form button {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #9bdbe7;
+    padding: 15px;
+    border-radius: 15px; 
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
+    margin-bottom: 140px;
+    }
+
+    
+  }
+
