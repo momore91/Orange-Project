@@ -105,6 +105,13 @@ html {
         
     }
 
+    .textCostumers {
+        color: #F8765E;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+
   
   /* ---- layout ---- */
   
@@ -148,8 +155,15 @@ html {
       top: -20px;
   }
 
+  .textCostumers {
+      position: relative;
+      top: -140px;
+      margin-right: 210px;
+      
 
-  
+  }
+
+
   
   /* ---- components ---- */
   
@@ -266,4 +280,13 @@ html {
     margin-bottom: 100px;
     border-style: none;
 
+}
+
+.sectionquotes {
+    text-align: left;
+}
+
+.img-big-quote {
+    text-align: left;
+    width: 35%;
 }
