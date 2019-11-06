@@ -114,7 +114,7 @@ html {
         
     }
 
-    .textCostumers {
+    .text-costumers {
         color: var(--orange);
         font-size: 16px;
         font-weight: bold;
@@ -238,6 +238,8 @@ button {
   margin-bottom: 31%;
   border-style: none;
   }
+
+
   
   /* ---- section ---- */
   
