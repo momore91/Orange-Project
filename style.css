@@ -217,6 +217,35 @@ html {
     color: blue;
     background-color: #fff;
   }
+
+  form input {
+    width: 335px;
+    height: 60px;
+    display:inline-block;
+    font-weight: bold;
+    font-size: 17px;
+    color: #cdcdcd;
+    padding: 21px 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px; 
+    padding: 30px auto;
+    box-shadow: inset 0 1px 5px 0 rgba(0,0,0,0.15);
+    border-style: none;
+  
+}
+
+form button {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #9bdbe7;
+  padding: 15px;
+  border-radius: 15px; 
+  box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
+  margin-bottom: 120px;
+  border-style: none;
+  }
   
   /* ---- section ---- */
   
@@ -238,35 +267,7 @@ html {
       background-color: #f8765e;
   }
 
-  form input {
-      width: 335px;
-      height: 60px;
-      display:inline-block;
-      font-family: 'Roboto', sans-serif;
-      font-weight: bold;
-      font-size: 17px;
-      color: #cdcdcd;
-      padding: 21px 25px;
-      margin-top: 10px;
-      margin-bottom: 20px;
-      border-radius: 20px; 
-      padding: 30px auto;
-      box-shadow: inset 0 1px 5px 0 rgba(0,0,0,0.15);
-      border-style: none;
-    
-  }
 
-  form button {
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    background-color: #9bdbe7;
-    padding: 15px;
-    border-radius: 15px; 
-    box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
-    margin-bottom: 120px;
-    border-style: none;
-    }
 
   .cards {
     height: 1571px;	
