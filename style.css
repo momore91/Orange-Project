@@ -32,6 +32,7 @@ html {
         --white: white;
         --celeste: #9bdbe7;
         --gris: #cdcdcd;
+        --dark-blue: #5B6C94;
     }
 
   /* ---- typography ---- */
@@ -86,6 +87,10 @@ html {
     
   }
 
+  .cards p {
+      text-align:left;
+  }
+
   .section3 p {
     margin-left: 30px;
   }
@@ -132,7 +137,7 @@ html {
     }
 
     .sectionSuscribe h3 {
-        color: #CDCDCD;
+        color: var(--gris);
         font-size: 26px;
         font-weight: 500;
         line-height: 45px;
@@ -239,8 +244,8 @@ button {
   }
 
   section img {
-      width: 80%;
-      margin-top: 40px;
+      width: 85%;
+      margin: 40px 0 20px;
       
   }
 
