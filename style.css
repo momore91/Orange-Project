@@ -207,26 +207,31 @@ html {
       padding-bottom: 10%;
   }
 
+  
+
   .quote {
-      position: absolute;
+      position: relative;
       z-index: 1;
 
-
   }
-  
+
   .quote.hide{
       position: relative;
       z-index: 1;
       left: 87%;
-
+      top: -380px;
 
   }
 
   .sectionquotes div {
-      position: relative;
+      position: absolute;
       z-index: 0;
-      margin-top: -150%;
+      margin-top: -250%;
       margin-left: 20%;
+  }
+
+  .quote-list {
+      overflow: scroll;
   }
 
 
@@ -284,6 +289,7 @@ button {
     border-radius: 20px 0 0 20px;
     height: 660px;
     width: 300px;
+    
 }
   
   /* ---- section ---- */
@@ -356,6 +362,7 @@ button {
 
 .sectionquotes {
     text-align: left;
+    position: relative;
     
 }
 
