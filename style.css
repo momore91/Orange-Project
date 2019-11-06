@@ -212,17 +212,16 @@ html {
   /* ---- components ---- */
   
 form input {
-    width: 335px;
-    height: 60px;
+    width: 87%;
     display:inline-block;
     font-weight: bold;
     font-size: 17px;
     color: var(--gris);
-    padding: 21px 25px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    padding: 5% 6%;
+    margin-top: 3%;
+    margin-bottom: 5%;
     border-radius: 20px; 
-    padding: 30px auto;
+    padding: 8% auto;
     box-shadow: inset 0 1px 5px 0 rgba(0,0,0,0.15);
     border-style: none;
   
@@ -233,10 +232,10 @@ button {
   font-weight: bold;
   font-size: 20px;
   background-color: var(--celeste);
-  padding: 20px;
+  padding: 5%;
   border-radius: 20px; 
   box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
-  margin-bottom: 120px;
+  margin-bottom: 31%;
   border-style: none;
   }
   
