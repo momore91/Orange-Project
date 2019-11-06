@@ -22,14 +22,22 @@ html {
     }
     
     a {
-    color: white;
+    color: var(--white);
     text-decoration: none;
     }
   
+  /* ---- variables ---- */
+    html {
+        --orange: #F8765E;
+        --white: white;
+        --celeste: #9bdbe7;
+        --gris: #cdcdcd;
+    }
+
   /* ---- typography ---- */
   
   body {
-    color: white;
+    color: var(--white);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 147%;
@@ -37,8 +45,8 @@ html {
   }
 
   h1 {
-      font-style: black;
-      font-size: 26px;
+    font-weight: 900;
+    font-size: 26px;
   }
   
   h2 {
@@ -49,12 +57,12 @@ html {
       }
       
   h3 {  
-        color: #031D5B;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 25px;
-        text-align: left;
-        margin-left: 20px;
+      color: #031D5B;
+      font-size: 18px;  
+      font-weight: 500;  
+      line-height: 25px;  
+      text-align: left;  
+      margin-left: 20px;    
       }
   a {
       font-weight: bold;
@@ -83,7 +91,7 @@ html {
   }
 
   .section3 h2 {
-        color: #F8765E;
+        color: var(--orange);
         font-weight: bold;
         font-size: 30px;
         line-height: 40px;
@@ -102,7 +110,7 @@ html {
     }
 
     .textCostumers {
-        color: #F8765E;
+        color: var(--orange);
         font-size: 16px;
         font-weight: bold;
         line-height: 30px;
@@ -116,7 +124,7 @@ html {
     }
 
     .sectionSuscribe h2 {
-        color: #F8765E;
+        color: var(--orange);
         font-size: 30px;
         font-weight: bold;
         line-height: 40px;
@@ -139,7 +147,7 @@ html {
   
   #site-header {
     padding: 30px 0;
-    color: #f8765e;
+    color: var(--orange);
     background: #111;
   }
   
@@ -177,7 +185,7 @@ html {
   }
 
   footer ul{
-      color: white;
+      color: var(--white);
       display: flex;
       margin: 0 20px;
       padding-bottom: 40px;
@@ -191,25 +199,13 @@ html {
   
   /* ---- components ---- */
   
-  .button {
-    width: 100%;
-    background-color: blue;
-    color: #fff;
-    border: 1px solid #fff
-  }
-  
-  .button-alt {
-    color: blue;
-    background-color: #fff;
-  }
-
-  form input {
+form input {
     width: 335px;
     height: 60px;
     display:inline-block;
     font-weight: bold;
     font-size: 17px;
-    color: #cdcdcd;
+    color: var(--gris);
     padding: 21px 25px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -221,10 +217,10 @@ html {
 }
 
 button {
-  color: white;
+  color: var(--white);
   font-weight: bold;
   font-size: 20px;
-  background-color: #9bdbe7;
+  background-color: var(--celeste);
   padding: 20px;
   border-radius: 20px; 
   box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
@@ -235,11 +231,11 @@ button {
   /* ---- section ---- */
   
   header {
-      background-color: #f8765e;
+      background-color: var(--orange);
   }
 
   footer {
-    background-color: #f8765e;
+    background-color: var(--orange);
   }
 
   section img {
@@ -249,7 +245,7 @@ button {
   }
 
   .section1 {
-      background-color: #f8765e;
+      background-color: var(--orange);
   }
 
 
@@ -257,7 +253,7 @@ button {
   .cards {
     height: 1571px;	
     width: 335px;
-    background-color: white;
+    background-color: var(--white);
     box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
     margin: 20px;  
     border-radius: 20px;  
@@ -275,7 +271,7 @@ button {
 .cards div {
     height: 5px;
     width: 60px;
-    background-color: #F8765E;
+    background-color: var(--orange);
     margin-left: 20px;
 }
 
@@ -284,9 +280,9 @@ button {
 }
 
 .section3 div {
-    height: 296.07px;
+    height: 296px;
     width: 296px;
-    background-color: #F8765E;
+    background-color: var(--orange);
     margin-left: 40px;
     border-radius: 200px;
 }
