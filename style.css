@@ -33,6 +33,7 @@ html {
         --celeste: #9bdbe7;
         --gris: #cdcdcd;
         --dark-blue: #5B6C94;
+        --dark-dark-blue: #031D5B;
     }
 
   /* ---- typography ---- */
@@ -58,12 +59,12 @@ html {
       }
       
   h3 {  
-      color: #031D5B;
+      color: var(--dark-dark-blue);
       font-size: 18px;  
       font-weight: 500;  
       line-height: 25px;  
       text-align: left;  
-      margin-left: 20px;    
+      margin-left: 6%;    
       }
   a {
       font-weight: bold;
@@ -73,17 +74,16 @@ html {
       font-weight: bold;
       font-size: 16px;
       line-height: 32px;
-      top: -15px;
 
   }
 
   .parrafo {
-    color: #5B6C94;
+    color: var(--dark-blue);
     font-size: 16px;
     font-weight: 500;
     line-height: 32px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 6%;
+    margin-right: 6%;
     
   }
 
@@ -92,7 +92,7 @@ html {
   }
 
   .section3 p {
-    margin-left: 30px;
+    margin: 7%;
   }
 
   .section3 h2 {
@@ -100,12 +100,12 @@ html {
         font-weight: bold;
         font-size: 30px;
         line-height: 40px;
-        margin-top: 75px;
+        margin-top: 20%;
         text-align: center;
     }
 
     .section3 h3 {
-        color: #031D5B;
+        color: var(--dark-dark-blue);
         font-size: 26px;
         font-weight: 500;
         line-height: 45px;
@@ -125,7 +125,7 @@ html {
         font-size: 16px;
         font-weight: bold;
         line-height: 32px;
-        padding-top: 40px;
+        padding-top: 10%;
     }
 
     .sectionSuscribe h2 {
@@ -142,7 +142,7 @@ html {
         font-weight: 500;
         line-height: 45px;
         padding: 0;
-        margin-bottom: 40px;
+        margin-bottom: 10%;
     }
 
 
@@ -153,7 +153,6 @@ html {
   #site-header {
     padding: 30px 0;
     color: var(--orange);
-    background: #111;
   }
   
   #site-main {
@@ -169,6 +168,14 @@ html {
       margin: 0 auto;
       line-height: 58px;
   }
+
+ header ul {
+    display: flex;
+ }
+
+ header li {
+    flex: auto; 
+ }
 
   .container {
       margin: 30px;
@@ -277,7 +284,7 @@ button {
     height: 5px;
     width: 60px;
     background-color: var(--orange);
-    margin-left: 20px;
+    margin-left: 6%;
 }
 
 .section3 {
