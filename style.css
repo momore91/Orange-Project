@@ -251,7 +251,7 @@ button {
 
   section img {
       width: 85%;
-      margin: 40px 0 20px;
+      margin: 10% 0 5.7%;
       
   }
 
@@ -262,11 +262,13 @@ button {
 
 
   .cards {
-    height: 1571px;	
-    width: 335px;
+    height: 412%;	
+    width: 87%;
     background-color: var(--white);
     box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
-    margin: 20px;  
+    margin: 5% auto;  
+    margin-bottom: 26%;
+    padding: 5%;
     border-radius: 20px;  
     position: relative;
     top: -64px;
@@ -276,12 +278,12 @@ button {
 
   .cards img {
     width:60%;
-    margin: 38px 0 38px 0;
+    margin: 9% 0 9% 0;
   }
 
 .cards div {
     height: 5px;
-    width: 60px;
+    width: 20%;
     background-color: var(--orange);
     margin-left: 6%;
 }
@@ -294,15 +296,15 @@ button {
     height: 296px;
     width: 296px;
     background-color: var(--orange);
-    margin-left: 40px;
+    margin-left: 10%;
     border-radius: 200px;
 }
 
 .section3 img {
     width: 50%;
     position: absolute;
-    top: -80px;
-    left: 90px;
+    top: -9%;
+    left: 24%;
 }
 
 .sectionquotes {
@@ -313,5 +315,5 @@ button {
 .img-big-quote {
     text-align: left;
     width: 40%;
-    margin-left: 20px;
+    margin-left: 5%;
 }
