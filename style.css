@@ -29,7 +29,7 @@ html {
   /* ---- typography ---- */
   
   body {
-    color: #111;
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 147%;
@@ -37,13 +37,11 @@ html {
   }
 
   h1 {
-      color: white;
       font-style: black;
       font-size: 26px;
   }
   
   h2 {
-      color: white;
       font-weight: bold;
       font-size: 30px;
       line-height: 40px;
@@ -63,13 +61,11 @@ html {
       font-size: 16px;
   }
   .section1 p {
-      color: white;
       font-weight: bold;
       font-size: 16px;
       line-height: 32px;
-      position: relative;
       top: -15px;
-      z-index: 0;
+
   }
 
   .parrafo {
@@ -113,7 +109,6 @@ html {
     }
 
     footer p {
-        color: white;
         font-size: 16px;
         font-weight: bold;
         line-height: 32px;
@@ -148,18 +143,8 @@ html {
     background: #111;
   }
   
-  #site-footer {
-    color: white;
-    padding: 60px 0;
-    background: #111;
-  }
-  
   #site-main {
     margin-bottom: 60px;
-  }
-  
-  .container {
-    margin: 0 20px;
   }
   
   .section {
@@ -235,13 +220,13 @@ html {
   
 }
 
-form button {
+button {
   color: white;
   font-weight: bold;
   font-size: 20px;
   background-color: #9bdbe7;
-  padding: 15px;
-  border-radius: 15px; 
+  padding: 20px;
+  border-radius: 20px; 
   box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
   margin-bottom: 120px;
   border-style: none;
@@ -311,20 +296,6 @@ form button {
     position: absolute;
     top: -80px;
     left: 90px;
-}
-
-.section3 button {
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    height: 60px;
-    width: 178px;
-    border-radius: 20px;
-    background-color: #9BDBE7;
-    box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
-    margin-bottom: 100px;
-    border-style: none;
-
 }
 
 .sectionquotes {
