@@ -155,6 +155,14 @@ html {
     padding: 16% 0;
     color: var(--orange);
   }
+
+  @media (min-width: 768px) {
+      header div{
+          padding:2%;
+          display: flex;
+          align-items: center;
+      }
+  }
   
   #site-main {
     margin-bottom: 16%;
@@ -170,10 +178,24 @@ html {
       line-height: 58px;
   }
 
+  @media (min-width: 768px) {
+    h1{
+        flex-grow: 1;;
+    }
+}
+
  header ul {
     display: flex;
     justify-content: center;
  }
+
+ @media (min-width: 768px) {
+    header ul{
+        flex-grow: 2;
+
+    }
+}
+
 
  header li {
     flex: auto; 
@@ -308,9 +330,24 @@ button {
       
   }
 
+  @media (min-width: 768px) {
+    .image-iphone{
+        order: 1;
+        width: 150%;
+
+    }
+}
+
   .section1 {
       background-color: var(--orange);
   }
+
+  @media (min-width: 768px) {
+    .section1 {
+        display: flex;;
+
+    }
+}
 
 
 
@@ -327,6 +364,8 @@ button {
     top: -64px;
     z-index: 10;
 
+  }
+
     @media (min-width: 768px) {
         .cards {
             display:flex;
@@ -336,7 +375,6 @@ button {
         }
     }
 
-  }
 
   .cards img {
     width:60%;
@@ -367,6 +405,21 @@ button {
     position: absolute;
     top: -9%;
     left: 24%;
+}
+
+@media (min-width: 768px) {
+    .section3 {
+        display: flex;
+        flex-wrap: wrap;   
+
+    }
+}
+
+@media (min-width: 768px) {
+    .section3 img {
+        max-width: 20%;
+
+    }
 }
 
 .sectionquotes {
